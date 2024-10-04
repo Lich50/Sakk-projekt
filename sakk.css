@@ -35,52 +35,12 @@ footer{
 .color3{
     background-color: #EAD8C0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#kiraly{
+#figura1{
+    list-style-image: url(game\(1\).png);
     
+
+}
+ul{
+    text-decoration: none;
 }
 
-#vezer{
-    
-}
-
-#bastya{
-    
-}
-
-#futo{
-    
-}
-
-#gyalog{
-    
-}
-
-#lo{
-    
-}

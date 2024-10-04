@@ -15,47 +15,40 @@
 </div>
 </header>
 
-<nav>
-    <ul>
-        <li><a href="#">Leírása</a></li>
-        <li><a href="#">A sakk tábla</a></li>
-        <li><a href="#">Figurák és értékeik</a></li>
-        <li><a href="#">Sakkfigurák</a></li>
-        <li><a href="#">Lépés és ütés</a></li>
-        <li><a href="#">Különleges lépések</a></li>
-        <li><a href="#">"Fogott figura lép, letett bábu marad"</a></li>
-        <li><a href="#">Sakkadás</a></li>
-        <li><a href="#">A sakk története</a></li>
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary my-1">
+    <ul class="navbar-nav text-white">
+        <li class="nav-item text-white"><a class="nav-link" href="#leiras">Leírása</a></li>
+        <li class="nav-item text-white"><a class="nav-link" href="#tabla">A sakk tábla</a></li>
+        <li class="nav-item text-white"><a class="nav-link" href="#ertek">Figurák és értékeik</a></li>
+        <li class="nav-item text-white"><a class="nav-link" href="#figura5">Sakkfigurák</a></li>
+        <li class="nav-item text-white"><a class="nav-link" href="#lepes">Lépés és ütés</a></li>
+        <li class="nav-item text-white"><a class="nav-link" href="#kulonleges">Különleges lépések</a></li>
+        <li class="nav-item text-white"><a class="nav-link" href="#k">"Fogott figura lép, letett bábu marad"</a></li>
+        <li class="nav-item text-white"><a class="nav-link" href="#sakkadas">Sakkadás</a></li>
+        <li class="nav-item text-white"><a class="nav-link" href="#tortenet">A sakk története</a></li>
        
     </ul>
 </nav>
 
 <div class="color2">
+   
     <h2 id="leiras">Leírása</h2>
 
-    <p>A sakkjátékot két játékos játssza egymás ellen a négyzet alakú, nyolc sorra és nyolc oszlopra felosztott sakktáblán, 16–16, azaz összesen 32 bábuval. A két játékos bábui határozottan eltérő színűek. A színek elnevezése világos, illetve sötét. Köznapi értelemben véve a sötét játékos bábui fekete színűek, míg a világoséi általában fehérek vagy világosbarnák (utóbbi főleg akkor, ha a bábukat fából készítették). A játékosok felváltva lépnek, és mindkettejük célja, hogy a másik fél király figuráját a játékszabályok szerint bemattolják (azaz megtámadják, mégpedig úgy, hogy a támadást ne tudja elhárítani).</p>
 
-    <h3>A sakk tábla</h3>
+    <p>A sakkjátékot két játékos játssza egymás ellen a négyzet alakú, nyolc sorra és nyolc oszlopra felosztott sakktáblán, 16–16, azaz összesen 32 bábuval. A két játékos bábui határozottan eltérő színűek. A színek elnevezése világos, illetve sötét. Köznapi értelemben véve a sötét játékos bábui fekete színűek, míg a világoséi általában fehérek vagy világosbarnák (utóbbi főleg akkor, ha a bábukat fából készítették). A játékosok felváltva lépnek, és mindkettejük célja, hogy a másik fél király figuráját a játékszabályok szerint bemattolják (azaz megtámadják, mégpedig úgy, hogy a támadást ne tudja elhárítani).</p>
+    
+    <h3 id="tabla">A sakk tábla</h3>
 
     <p>A tábla mindig akkor áll helyesen, ha a bal alsó sarokban sötét, a jobb alsóban pedig világos színű mező van. Vízszintesen az 1-től 8-ig, arab számokkal jelölt sorok, függőlegesen az a–h betűkkel azonosított vonalak vannak. Magán a sakktáblán többnyire nagybetűk láthatók, a játszmák lejegyzésénél kisbetűket írunk. A váltakozó színű négyzetek neve mező, és a vonalak, valamint sorok jelével hivatkozunk rájuk. A játékosok bal keze felé eső sarokmező sötét színű. A világossal játszó játékos esetén ez a mező az a1, sötétnél a h8. Alapállásban a világos király e1-en, a sötét király e8-on áll.</p>
 
     <img src="felall.jpg" alt="Alapállás" title="Alapállás">
 
     <p>Az a–d vonalak neve vezérszárny, az e–h vonalaké királyszárny. A tábla közepe a centrum. Szűkebb értelemben ez csupán a d4, d5, e4 és e5 mezőket jelenti, tágabb értelemben centrumnak nevezzük a c3, c6, f6 és f3 mezők által kijelölt négyzetet. A sarkaikkal érintkező mezők képezik az átlókat. Az a1–h8, illetve az a8–h1 átlókat nagyátlóknak hívjuk.</p>
-
-    <h3>Figurák és értékeik</h3>
+    
+    <h3 id="ertek">Figurák és értékeik</h3>
     <p>A játék kezdetén a világosnak és a sötétnek ugyanannyi figurája van: 1–1 király, 1–1 vezér (alternatív neve: „királynő”), 2–2 bástya (alternatív neve: „torony”), 2–2 huszár (alternatív neve: „ló”), 2–2 futó és 8–8 gyalog (alternatív neve: „paraszt”). A figurák kiindulási helyzetét, illetve mozgatásuk lehetőségeit a játék szabálya határozza meg.</p>
 
-    <div>
-        <button type="button" class="gomb_kiraly">Király</button>
-        <button type="button" class="gomb_vezer">Vezér</button>
-        <button type="button" class="gomb_bastya">Bastya</button>
-        <button type="button" class="gomb_futo">Futó</button>
-        <button type="button" class="gomb_lo">Ló</button>
-        <button type="button" class="gomb_gyalog" >Gyalog</button>
-
-        <img src="Király.png" alt="Király" title="Király" id="kiraly">
-    </div>
+    <img src="figura.png" alt="Figurák" title="Figurák">
 
     <p>A 8–8 gyalogon és az 1–1 királyon kívül minden figura tiszt. A huszárt és a futót könnyűtisztnek, a vezért és a bástyát nehéztisztnek hívjuk. A kiindulási helyzetben elfoglalt helyük (királyszárny vagy vezérszárny) alapján szokás beszélni királybástyáról, vezérfutóról stb., ezek azonban nem hivatalos elnevezések. Azt a sort, amelyen alapállásban a tisztek és a király állnak (világos esetében az 1., sötét esetében a 8. sort) alapsornak hívjuk.</p>
 
@@ -68,7 +61,8 @@
 
 <div class="color 3">
 
-    <h2 class="sakkfigura">Sakkfigurák</h2>
+    
+    <h2 id="figura5" class="sakkfigura">Sakkfigurák</h2>
 
     <br>
 
@@ -129,34 +123,34 @@
 </div>
 
 <div>
-
-    <h2>Lépés és ütés</h2>
+    
+    <h2 id="lepes">Lépés és ütés</h2>
     <p>Egy mezőn egy időben csak egy figura állhat. A játékot mindig világos kezdi, és tetszése szerint – de a szabályoknak adta kereteken belül – valamelyik figuráját áthelyezi egy másik mezőre. Ezt lépésnek hívjuk. Ezt követően sötét lép egyet. A játékosok felváltva lépnek, passzolásra nincs lehetőség („lépéskényszer”). Ha egy mezőn az ellenfél bábuja áll, azt egy szabályos lépéssel ki lehet ütni: az ellenfél figuráját levesszük a tábláról, és saját, odalépő bábunkat tesszük a helyére. Saját figura kiütésére nincs lehetőség.</p>
 
 </div>
 
 <div>
-
-    <h2>Különleges lépések</h2>
+ 
+    <h2 id="kulonleges">Különleges lépések</h2>
 
     <p>A sakkban három különleges lépés van:</p>
     <ul>
-        <li>Sáncolás</li>
+        <li id="figura1">Sáncolás</li>
             <p>A király és az egyik bástya együttes lépése. Ezt világos is, sötét is mindössze egyszer teheti meg a játék során. A király a kiválasztott bástya felé lép két mezőt, a kiválasztott bástya pedig a király által átlépett, tehát a királlyal szomszédos túloldali mezőre kerül. Ha a király a királyszárnyra sáncol, azt rövidsáncnak (írott jele: 0–0), ha a vezérszárnyra, hosszúsáncnak (írott jele: 0–0–0) hívjuk. A sáncolás csak akkor lehetséges, ha az alábbi feltételek mindegyike igaz:</p>
 
-            <ol>
+            <ol >
 
-                <li>a király még nem lépett a játszma folyamán;</li>
-                <li>az a bástya, amellyel sáncolni szeretnénk, még nem lépett a játszma folyamán;</li>
-                <li>a király és a bástya között nem áll sem saját, sem ellenséges báb;</li>
-                <li>a sáncolás előtt a király nem áll sakkban, a sáncolással nem kerül sakkba, és a sáncolás közben nem halad át olyan mezőn, amelyet ellenséges báb támad.</li>
+                <li id=figura1>a király még nem lépett a játszma folyamán;</li>
+                <li id=figura1>az a bástya, amellyel sáncolni szeretnénk, még nem lépett a játszma folyamán;</li>
+                <li id=figura1>a király és a bástya között nem áll sem saját, sem ellenséges báb;</li>
+                <li id=figura1>a sáncolás előtt a király nem áll sakkban, a sáncolással nem kerül sakkba, és a sáncolás közben nem halad át olyan mezőn, amelyet ellenséges báb támad.</li>
 
             </ol>
 
             <img src="sanc.gif" alt="Sáncolás" title="Sáncolás">
-        <li>Ütés menet közben (en passant)</li>
+        <li id="figura1">Ütés menet közben (en passant)</li>
             <p>Ha a kiindulási mezőjéről kettőt lépő gyalogunkkal áthaladunk egy ellenséges gyalog ütésmezején, akkor az ellenfél gyalogunkat a következő lépésben – de csakis akkor – leütheti. Az ütés pontosan úgy történik, mintha az ütött gyalog csak egyet lépett volna.</p>
-        <li>Átalakulás</li>
+        <li id="figura1">Átalakulás</li>
             <p>Ha a gyalog beér az ellenfele alapsorára, akkor át kell változtatni a gyaloggal azonos színű tisztté: vezérré, bástyává, huszárrá vagy futóvá, a játékos választása szerint, függetlenül attól, hogy az adott tisztből hány van még játékban.</p>
 
             <img src="valtoz.gif" alt="Átalakulás és en passant" title="Átalakulás és en passant">
@@ -166,23 +160,23 @@
 
 <div>
 
-    <h2>"Fogott figura lép, letett bábu marad"</h2>
+    <h2 id="k">"Fogott figura lép, letett bábu marad"</h2>
 
     <p>Franciául: pièce touchée (am. „megérintett bábu”). Az alább említett kivételtől eltekintve, ha a lépésre következő játékos megérinti saját figurái egyikét, köteles azzal lehetőség szerint szabályos lépést tenni. Ha az ellenfél figuráját érinti meg, lehetőség szerint köteles azt kiütni. Továbbá a megtett lépést nem lehet visszavonni, azaz az elengedett bábu már nem mozdítható. Ez alól a versenyző csak akkor mentesül, ha az érintés előtt Igazítok! (J'adoube, ejtsd: zsadub) felkiáltást tesz, majd ezt végre is hajtja. Nem hivatalos játszmáknál e szabály alkalmazásáról előzetes megegyezés alapján döntenek. Ez alól csak egy kivétel van: ha olyan figurát érintett meg a játékos, amellyel nem lehet szabályos lépést megtenni. Ez alatt az a helyzet is értendő, ha a játékos megérint egy figurát, de közben a királya sakkban van. Ekkor ha a megérintett figura közbehúzásával vagy a sakkot adó ellenséges bábu leütésével védhető a sakk, akkor azt azzal köteles védeni, akkor is, ha ezzel anyagi hátrányba kerül. Ha azonban a fogott bábu közbehúzásával vagy a sakkadó bábu leütésével nem védhető a sakk, akkor a „fogott bábu lép” szabály nem érvényes, mert egy szabályos lépéssel a sakkot kell kivédeni.</p>
 
 </div>
 
 <div>
-
-    <h2>Sakkadás</h2>
+  
+    <h2 id="sakkadas">Sakkadás</h2>
 
     <p>Ha az ellenfél lépésével olyan helyzet alakul ki a táblán, hogy amennyiben megint ő következne lépéssel, kiüthetné a királyunkat, akkor sakkot kaptunk, másként fogalmazva a királyunk sakkban áll. A sakkot kötelező megszüntetni, különben veszítünk. Ez háromféleképpen történhet:</p>
 
     <ol>
 
-        <li>Kilépünk a sakkból, vagyis királyunkkal olyan mezőre lépünk, amelyet nem támad ellenséges báb.</li>
-        <li>Leütjük a sakkot adó bábot.</li>
-        <li>Közbehúzunk egy másik figurát a támadó báb és a királyunk közé. Ez a megoldás értelemszerűen nem jöhet szóba, ha huszártól kaptunk sakkot, vagy közvetlenül szomszédos mezőről.</li>
+        <li id="figura1">Kilépünk a sakkból, vagyis királyunkkal olyan mezőre lépünk, amelyet nem támad ellenséges báb.</li>
+        <li id="figura1">Leütjük a sakkot adó bábot.</li>
+        <li id="figura1">Közbehúzunk egy másik figurát a támadó báb és a királyunk közé. Ez a megoldás értelemszerűen nem jöhet szóba, ha huszártól kaptunk sakkot, vagy közvetlenül szomszédos mezőről.</li>
 
     </ol>
 
@@ -190,11 +184,11 @@
 
     <ul>
 
-        <li>Felfedett sakk</li>
+        <li id="figura1">Felfedett sakk</li>
             <p>amikor nem attól a figurától kapjuk a sakkot, amely a tényleges lépést tette. Ez úgy történhet, hogy a királyunk és a sakkadó báb között volt egy másik ellenséges figura, és ellenfelünk ez utóbbival kilépett az útból.</p>
-        <li>Kettős sakk</li>
+        <li id="figura1">Kettős sakk</li>
             <p>ha a lépést követően nem egyetlen, hanem két figura is támadja a királyunkat. Ez történhet például úgy, hogy a királyunk és az ellenséges bástya között álló huszár ellép az útból (felfedett sakk), de maga is olyan mezőre érkezik, ahonnan sakkban tartja királyunkat. A kettős sakk nagyon erős lépésnek számít, hiszen kizárólag a sakkból való kilépéssel lehet megszüntetni.</p>
-        <li>Villás sakk</li> 
+        <li id="figura1">Villás sakk</li> 
         <p>akkor beszélünk erről az esetről, amikor a huszár a királyon kívül legalább egy nehéztisztet támad egyszerre. Ha a huszár a sakkadással egyidejűleg a vezért támadja, azt a köznyelvben sakk-sekk néven (angolul: royale fork) is nevezik.</p>
 
     </ul>
@@ -202,7 +196,7 @@
 </div>
 
 <div>
-
+    
     <h2 id="tortenet">A sakk története</h2>
     <p>A sakk története a legendák világába nyúlik vissza. Egy ismert mese szerint egy brahmin találta ki a sakkot. Jutalmul a rádzsától első hallásra jelentéktelennek tűnő fizetséget kért, mindössze annyi búzaszemet, amennyi a sakktábla kockáira a következő szabály szerint képletesen rátehető: az első kockára egy, a másodikra kettő, a harmadikra négy, vagyis az előzőnek mindig duplája. Hamar kiderült, hogy ennyi búza nem terem a Földön, sőt az emberiség egész történelme alatt nem termelt ennyit.</p>
 
