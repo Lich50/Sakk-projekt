@@ -48,24 +48,24 @@
     <h3 id="ertek">Figurák és értékeik</h3>
     <p>A játék kezdetén a világosnak és a sötétnek ugyanannyi figurája van: 1–1 király, 1–1 vezér (alternatív neve: „királynő”), 2–2 bástya (alternatív neve: „torony”), 2–2 huszár (alternatív neve: „ló”), 2–2 futó és 8–8 gyalog (alternatív neve: „paraszt”). A figurák kiindulási helyzetét, illetve mozgatásuk lehetőségeit a játék szabálya határozza meg.</p>
 
-    <div>
+    <div class="babu">
          <img src="Király.png" alt="" id="kiraly" onclick="kiraly_kep()">
-         <b id="kiraly_szoveg">awdawddawdawd</b>
+         <b id="kiraly_szoveg">Király</b>
 
          <img src="Vezér.png" alt="" id="vezer" onclick="vezer_kep()">
-         <b id="vezer_szoveg">awdawd</b>
+         <b id="vezer_szoveg">Vezér</b>
 
          <img src="Futó.png" alt="" id="futo" onclick="futo_kep()">
-         <b id="futo_szoveg">awdawd</b>
+         <b id="futo_szoveg">Futó</b>
 
          <img src="Ló.png" alt="" id="lo" onclick="lo_kep()">
-         <b id="lo_szoveg">awdawd</b>
+         <b id="lo_szoveg">Ló</b>
 
          <img src="Bástya.png" alt="" id="bastya" onclick="bastya_kep()">
-         <b id="bastya_szoveg">awdawd</b>
+         <b id="bastya_szoveg">Bástya</b>
 
          <img src="Gyalog.png" alt="" id="gyalog" onclick="gyalog_kep()">
-         <b id="gyalog_szoveg">awdawd</b>
+         <b id="gyalog_szoveg">Gyalog</b>
     </div>
 
     <p>A 8–8 gyalogon és az 1–1 királyon kívül minden figura tiszt. A huszárt és a futót könnyűtisztnek, a vezért és a bástyát nehéztisztnek hívjuk. A kiindulási helyzetben elfoglalt helyük (királyszárny vagy vezérszárny) alapján szokás beszélni királybástyáról, vezérfutóról stb., ezek azonban nem hivatalos elnevezések. Azt a sort, amelyen alapállásban a tisztek és a király állnak (világos esetében az 1., sötét esetében a 8. sort) alapsornak hívjuk.</p>
@@ -147,34 +147,58 @@
 
 </div>
 
-<div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 ">
+
+
  
-    <h2 id="kulonleges">Különleges lépések</h2>
+            <h2 id="kulonleges">Különleges lépések</h2>
 
-    <p>A sakkban három különleges lépés van:</p>
-    <ul>
-        <li id="figura1">Sáncolás</li>
-            <p>A király és az egyik bástya együttes lépése. Ezt világos is, sötét is mindössze egyszer teheti meg a játék során. A király a kiválasztott bástya felé lép két mezőt, a kiválasztott bástya pedig a király által átlépett, tehát a királlyal szomszédos túloldali mezőre kerül. Ha a király a királyszárnyra sáncol, azt rövidsáncnak (írott jele: 0–0), ha a vezérszárnyra, hosszúsáncnak (írott jele: 0–0–0) hívjuk. A sáncolás csak akkor lehetséges, ha az alábbi feltételek mindegyike igaz:</p>
-
+             <p>A sakkban három különleges lépés van:</p>
+            <ul>
+            <li id="figura1">Sáncolás</li>
+             <p>A király és az egyik bástya együttes lépése. Ezt világos is, sötét is mindössze egyszer teheti meg a játék során. A király a kiválasztott bástya felé lép két mezőt, a kiválasztott bástya pedig a király által átlépett, tehát a királlyal szomszédos túloldali mezőre kerül. Ha a király a királyszárnyra sáncol, azt rövidsáncnak (írott jele: 0–0), ha a vezérszárnyra, hosszúsáncnak (írott jele: 0–0–0) hívjuk. A sáncolás csak akkor lehetséges, ha az alábbi feltételek mindegyike igaz:</p>
+            
             <ol >
-
-                <li id=figura1>a király még nem lépett a játszma folyamán;</li>
-                <li id=figura1>az a bástya, amellyel sáncolni szeretnénk, még nem lépett a játszma folyamán;</li>
-                <li id=figura1>a király és a bástya között nem áll sem saját, sem ellenséges báb;</li>
-                <li id=figura1>a sáncolás előtt a király nem áll sakkban, a sáncolással nem kerül sakkba, és a sáncolás közben nem halad át olyan mezőn, amelyet ellenséges báb támad.</li>
-
+            
+            <li id=figura1>a király még nem lépett a játszma folyamán;</li>
+            <li id=figura1>az a bástya, amellyel sáncolni szeretnénk, még nem lépett a játszma folya</li>
+            <li id=figura1>a király és a bástya között nem áll sem saját, sem ellenséges báb;</li>
+            <li id=figura1>a sáncolás előtt a király nem áll sakkban, a sáncolással nem kerül sakkba,a sáncolás közben nem halad át olyan mezőn, amelyet ellenséges báb támad.</li>
+            
             </ol>
 
-            <img src="sanc.gif" alt="Sáncolás" title="Sáncolás">
-        <li id="figura1">Ütés menet közben (en passant)</li>
-            <p>Ha a kiindulási mezőjéről kettőt lépő gyalogunkkal áthaladunk egy ellenséges gyalog ütésmezején, akkor az ellenfél gyalogunkat a következő lépésben – de csakis akkor – leütheti. Az ütés pontosan úgy történik, mintha az ütött gyalog csak egyet lépett volna.</p>
-        <li id="figura1">Átalakulás</li>
-            <p>Ha a gyalog beér az ellenfele alapsorára, akkor át kell változtatni a gyaloggal azonos színű tisztté: vezérré, bástyává, huszárrá vagy futóvá, a játékos választása szerint, függetlenül attól, hogy az adott tisztből hány van még játékban.</p>
+            </div>
+            <div class="col-md-4 ">
+                <img src="sanc.gif" alt="Sáncolás" title="Sáncolás">
+            </div>
 
+         <div class="row">
+            <div class="col-md-8 ">
+        
+            <li id="figura1">Ütés menet közben (en passant)</li>
+            <p>Ha a kiindulási mezőjéről kettőt lépő gyalogunkkal áthaladunk egy ellenséges gyalog ütésmezején, akkor az ellenfél gyalogunkat a következő lépésben – de csakis akkor – leütheti. Az ütés pontosan úgy történik, mintha az ütött gyalog csak egyet lépett volna.</p>
+            <li id="figura1">Átalakulás</li>
+            <p>Ha a gyalog beér az ellenfele alapsorára, akkor át kell változtatni a gyaloggal azonos színű tisztté: vezérré, bástyává, huszárrá vagy futóvá, a játékos választása szerint, függetlenül attól, hogy az adott tisztből hány van még játékban.</p>
+            <div class="col-md-4 ">
             <img src="valtoz.gif" alt="Átalakulás és en passant" title="Átalakulás és en passant">
+        </div>
+
     </ul>
+        </div>
+        </div>
+        </div>
+
+
 
 </div>
+</div>
+</div>
+
+
+
+
 
 <div>
 
